@@ -1,0 +1,41 @@
+14833,Alice in Wonderland,Lewis Carroll,1865,28
+15322,War of the World,H.G. Wells,1953,17
+20983,The City,Dean Kootnz,2014,36
+19123,The Hobbitt,J.R.R. Tolkien,1938,178
+24504,The Old Man and the Sea,Ernest Hemingway,1951,135
+13323,My Experiments with Truth,Mahatma M.K.Gandhi,1929,6
+19232,Far from the Madding Crowd,Thomas Hardy,1874,2
+11219,The Merchant of Venice,William Shakespeare,1605,26
+15677,A Tale of Two Cities,Charles Dickens,1859,37
+15899,David Copperfield,Charles Dickens,1850,29
+13298,Gulliver's Travels,Jonathan Swift,1726,67
+17666,Pride and Prejudice,Jane Austen,1813,82
+11889,Time Machine,H.G. Wells,1895,13
+20981,Mein Kampf,Adolf Hitler,1925,10
+15245,Invisible Man,H.G. Wells,1897,16
+12290,Around the World in Eighty Days,Jules Verne,1873,58
+23280,Nineteen Eighty-Four,George Orwell,1949,103
+19911,War and Peace,Leo Tolstoy,1869,149
+14923,Adventures of Sherlock Holmes,Arthur Conan Doyle,1892,66
+19002,Robinson Crusoe,Daniel Defoe,1719,24
+11198,Faust,Goethe,1808,0
+18725,A Doctor in the House,Mahathir Mohamad,2011,26
+15533,The Singapore Story,Lee Kuan Yew,1998,20
+18929,A Brief History of Time,Stephen Hawking,1998,25
+17911,Les Miserable,Victor Hugo,1862,96
+24501,The Bourne Identity,Robert Ludlum,1980,71
+14796,The Lion the Witch and the Wardrobe,C.S. Lewis,1950,68
+18989,The Mist,Stephen King,1980,9
+15263,Cosmos,Carl Sagan,1980,20
+18677,Anna Karenina,Leo Tolstoy,1877,136
+
+
+
+
+
+
+
+
+
+
+

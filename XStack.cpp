@@ -372,7 +372,7 @@ void XStack<T>::uniqueAuthors(XStack<T>*& uniqueStack, XStack<T>*& originalStack
 {
     //Required: Two more stacks, Two variables, 1 Comparison, 2 Bools
 
-    XStack<T>* temporary = new XStack<T>(); //copies original stack
+    XStack<T>* temporary = new XStack<T>();
     XStack<T>* not_unique = new XStack<T>(); //used to store items which are not unique
 
     bool not_one; //This is to check whether the Author is unique or not
@@ -437,6 +437,43 @@ void XStack<T>::uniqueAuthors(XStack<T>*& uniqueStack, XStack<T>*& originalStack
             uniqueStack->push(top_check); //stores it into the unique stack
         }
 
+    }
+
+    XStack<T>* topUnRepeated = new XStack<T>();
+    XStack<T>* sorted_notUnique = new XStack<T>();
+    int check;
+
+    topUnRepeated->topSellers(sorted_notUnique, not_unique);
+
+    while(!sorted_notUnique->isEmpty())
+    {
+        check = 0; //used as boolean alternative
+        sorted_notUnique->pop(top_check); //checks the top book in sorted stack
+        X = top_check.getAuthor(); //gets author of top book
+
+        Node<T>* ptr = topUnRepeated->top;
+
+        while(ptr != NULL)
+        {
+            if(X == ptr->info.getAuthor()) //if author of top book is repeated in this stack
+            {
+                not_unique->push(top_check);
+                check = 1;
+            }
+
+            ptr = ptr->next;
+        }
+
+        if(check == 0) //if author is not same
+        {
+            topUnRepeated->push(top_check);
+        }
+    }
+
+    while(!topUnRepeated->isEmpty())
+    {
+        topUnRepeated->pop(top_check);
+        uniqueStack->push(top_check);
     }
 
     delete not_unique;

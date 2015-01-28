@@ -2,7 +2,6 @@
 #define BOOKITEM_HPP
 #include <iostream>
 #include <string>
-#include "XStack.hpp"
 using namespace std;
 
 class BookItem

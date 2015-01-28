@@ -1,9 +1,6 @@
 #ifndef BOOKITEM_CPP
 #define BOOKITEM_CPP
-#include "node.hpp"
 #include "BookItem.hpp"
-#include "XStack.hpp"
-#include "XStack.cpp"
 #include <iostream>
 #include <string>
 using namespace std;
